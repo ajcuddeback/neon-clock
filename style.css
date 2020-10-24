@@ -1,0 +1,49 @@
+@font-face {
+    src: url(fonts/LOOPY___.ttf);
+    font-family: loopy;
+}
+@font-face {
+    src: url(fonts/Digital\ Dismay.otf);
+    font-family: dismay;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.main {
+    width: 600px;
+    height: 205px;
+    margin: 200px auto;
+    position: relative;
+    padding: 40px;
+    border: 2px solid chartreuse;
+    border-radius: 10px;
+}
+
+.Date {
+    color: chartreuse;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    left: 20%;
+    font-family: loopy;
+    font-size: 50px;
+}
+
+.clock {
+    text-align: center;
+    font-size: 100px;
+    height: 100%;
+    padding-top: 25px;
+    color: chartreuse;
+    border-radius: 4px;
+    font-family: dismay;
+}
